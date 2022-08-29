@@ -65,7 +65,7 @@ main{
     padding: 6px 0;
     text-align: center;
     border: solid 2px #000;
-    color: #fff;
+    color: red;
     font: 900;
     font-size: 24px;
     font: bold;
@@ -73,5 +73,6 @@ main{
 
 #resultado{
     color: red;
+    font-size: 20px;
 }
 
