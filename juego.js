@@ -58,8 +58,8 @@ function click_letras(event) {
     const button = event.target; //cuál de todas las letras, llamó a la función.
     button.disabled = true;
 
-    const letra = button.innerHTML.toLowerCase();
-    const palabra = palabrita.toLowerCase(); // .toUpperCase( )
+    const letra = button.innerHTML.toUpperCase();
+    const palabra = palabrita.toUpperCase(); // .toLowerCase( )
 
     let acerto = false;
     for (let i = 0; i < palabra.length; i++) {
